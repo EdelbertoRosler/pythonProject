@@ -1,6 +1,7 @@
-
+'''
+Receba um vetor e inverta a ordem dos elementos (Sem usar a função reverse)
+'''
 def vetores():
-    #1) Receba um vetor e inverta a ordem dos elementos (Sem usar a função reverse)
     vet = []
     vet2 = []
     while True:
