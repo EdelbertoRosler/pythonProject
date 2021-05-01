@@ -4,6 +4,7 @@ Crie um programa que cadastre informações de várias pessoas
 remova todas as pessoas menores de 18 anos do dicionário e
 coloque em outro dicionário.
 '''
+
 def cadastro():
     usuarios = list()
     usuarios_menores = list()
@@ -34,5 +35,5 @@ def cadastro():
     print(usuarios)
     print(usuarios_menores)
 
-
-cadastro()
+if __name__ == '__main__':
+    cadastro()
