@@ -9,7 +9,7 @@ def fatorial():
         if n >= 2:
             fator = fator * (n-1)
             n -= 1
-    print(f'O fatorial de {numero} é: {fator}'.format(numero, fator))
+    print('O fatorial de {} é: {}'.format(numero, fator))
 
 if __name__ == '__main__':
     fatorial()
